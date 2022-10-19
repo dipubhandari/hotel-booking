@@ -1,0 +1,10 @@
+.special_rooms {
+    display: flex;
+    width: auto;
+    height: 300px;
+}
+
+.sr {
+    width: 70%;
+
+}

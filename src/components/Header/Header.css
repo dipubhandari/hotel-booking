@@ -1,0 +1,98 @@
+.header {
+    background-color: #003580;
+    justify-content: center;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.headercontainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 10px 0px;
+    display: flex;
+}
+
+.headerList {
+    display: flex;
+    max-width: 1024px;
+    gap: 40;
+    align-items: center;
+    margin: 20px 40px 50px 0px;
+    flex-wrap: wrap;
+    color: #ffff;
+}
+
+.header_slogan {
+    color: #ffff;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+.header_para {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,
+        sans-serif;
+    color: #ffff;
+}
+
+.headerBtn {
+    color: #003580;
+}
+
+.headerBtn button {
+    cursor: pointer;
+    border: none;
+    padding: 2px;
+    width: auto;
+}
+
+.active {
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.searc_Header {
+    height: 50px;
+    border: 2px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header_Search_Item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_search_input {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: medium;
+
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Open Sans',
+        'Helvetica Neue',
+        sans-serif;
+}
+
+.searchbutton {
+    background-color: blue;
+    border: none;
+    color: #ffff;
+    padding: 2px;
+    width: 100px;
+    cursor: pointer;
+    height: 40px;
+}
